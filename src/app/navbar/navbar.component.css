@@ -1,0 +1,28 @@
+.logo {
+    width: 60px;
+    margin-left: 60px;
+}
+
+.main {
+    display: flex;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+}
+
+button {
+    border: none; 
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.user {
+    width: 40px;
+}
+
+.set-width {
+    width: 60px;
+    display: inline-grid;
+    font-size: 10px;
+    vertical-align: middle;
+}

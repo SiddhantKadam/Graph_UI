@@ -1,0 +1,63 @@
+.content {
+  margin-left: 100px;
+  transition: 0.3s;
+  background-color: #f5f6fa;
+  &.sidebarExpanded {
+    margin-left: 260px;
+  }
+}
+
+#chart {
+  margin: 35px auto;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #f5f6fa;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+.nav-icons {
+  justify-content: end;
+  display: flex;
+}
+
+label {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.form-select {
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+.nav-icons button {
+  border: none;
+}
+
+.nav-icons .download {
+  border-radius: 50%;
+  rotate: 180deg;
+  padding: 9px;
+}
+
+.right-icons {
+  display: flex;
+  justify-content: end;
+}
+
+.right-icons button {
+  border: none;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 0 10px 0 10px;
+}
+
+.questions {
+  background-color: #fff;
+}
